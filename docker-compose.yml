@@ -1,6 +1,6 @@
 services:
 #install with existing dockerfile
-  web:
+  disease-engine:
     build: .
     ports:
       - "3000:3000"
